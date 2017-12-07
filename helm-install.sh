@@ -1,1 +1,0 @@
-helm install --name fnproject --set fnserver.service.type=NodePort,ui.service.type=NodePort,mysql.imageTag=5.7.20,mysql.mysqlUser=fnapp,mysql.mysqlPassword=fnapp,mysql.mysqlRootPassword=root,redis.usePassword=false fn
